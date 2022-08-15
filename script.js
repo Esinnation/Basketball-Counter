@@ -6,7 +6,7 @@ const plus2= document.getElementById('plus2')
 const plus3= document.getElementById('plus3')
 const score1=document.getElementById('score1')
 const score2=document.getElementById('score2')
-// const newGame=document.getElementById('new-btn')
+const newGame=document.getElementById('new-btn')
 // const home=document.getElementById('home')
 // const guest=document.getElementById('guest')
 let count1 =0
@@ -71,11 +71,11 @@ let total=0
 
     
 
-// newGame.addEventListener('click',function(){
-//     guest.className=''
-//     home.className=''
-//     count1=0
-//     count2=0
-//     score1.textContent=0
-//     score2.textContent=0
-// })
+newGame.addEventListener('click',function(){
+    guest.className=''
+    home.className=''
+    count1=0
+    count2=0
+    score1.textContent=0
+    score2.textContent=0
+})
